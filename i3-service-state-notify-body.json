@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "version": "1.0",
+  "version": "1.0.1",
   "title": "Service State NOTIFY",
   "description": "SIP NOTIFY message body for Service State notifications",
   "type": "object",
@@ -13,7 +13,9 @@
         },
         "domain": {
           "type": "string"
-        }
+        },
+        "serviceId": {
+          "type": "string"        }
       },
       "required": [
         "name",
